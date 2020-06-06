@@ -5,7 +5,7 @@ func findLucky(arr []int) int {
 	for _, n := range arr {
 		cnts[n] = cnts[n] + 1
 	}
-	res := 0
+	res := -1
 	for _, n := range arr {
 		if n == cnts[n] {
 			if n > res {

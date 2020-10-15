@@ -20,7 +20,6 @@ class Solution:
                     queue.append((x, y))
         dd = [(-1, 0), (1, 0), (0, -1), (0, 1)]
         res = 0
-        visited = set()
         while queue:
             sz = len(queue)
             while sz > 0:

@@ -9,3 +9,4 @@
 ## 题目
 
 - <https://leetcode.com/problems/longest-repeating-character-replacement/>
+- <https://leetcode.com/problems/subarrays-with-k-different-integers/solution/>

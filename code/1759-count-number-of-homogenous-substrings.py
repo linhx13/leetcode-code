@@ -7,5 +7,5 @@ class Solution:
         res = 0
         for _, g in itertools.groupby(s):
             k = sum(1 for _ in g)
-            res = (res + k * (k + 1) // 2) % mod
+            res = (res + (k * (k + 1) >> 1)) % mod
         return res

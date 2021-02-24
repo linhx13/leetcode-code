@@ -5,4 +5,4 @@ class Solution:
             return binary
         cnt = binary.count("1", first)
         n = len(binary)
-        return "1" * (n - cnt - 1) + "0" + "1" * cnt
+        return "1" * (n - cnt - 1) + "0" + "1" * cnt 
